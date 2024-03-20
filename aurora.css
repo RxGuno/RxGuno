@@ -22,7 +22,6 @@ body{
     overflow: hidden;
     padding: 7px 8px;
     width: 100%;
-
 }
 .logo.img{
     width: 300px;
@@ -38,7 +37,6 @@ body{
     display: flex;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
 .topnav a {
     align-items: center;
@@ -52,12 +50,10 @@ body{
 .topnav a:hover {
     background-color: #fd2e58;
     color: black;
-    width: 75px;
-    transition: all 0.5s ease;
+    transition: 0.5s;
     border-radius: 5px;
     -webkit-transition-delay: 0.50ms;
 }
-
 
 .closebtn {
     align-self: flex-end;
@@ -119,44 +115,70 @@ section:hover{
 /*Gallery**/
 
 h1{
-    color: #fff;
+    color: #ddd;
+    position: absolute;
+    top: 135%;
+    left: 43%;
 }
 
 div.gallery {
-    display: inline-block;
+    display: block;
+    position: relative;
     margin: 20px 20px 20px 20px;
     justify-content: space-evenly;
     cursor: pointer;
     transition: all 0.5s ease;
+    padding-top: 13%;
   }
   
-  div.gallery:hover {
+div.gallery:hover {
     transform: scale(1.10);
-   
     
   }
   
-  div.gallery img {
+div.gallery img {
     width: 275px;
   }
-  div.desc {
+div.desc {
     padding: 15px;
     text-align: center;
   }
 
-#Home, #Product, #SizeChart, #About{
-    
-        display: flex;
-        flex-wrap: wrap;
-        height: 100vh;
+#Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+}
 
-        justify-content: center;
-        align-items: center;
-        color: #ddd;
+#Product {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+}
+#SizeChart {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+}
+#About {
+    
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
 }
 
 h2{
-    color: #fff;
+    color: #ddd;
 }
 
 #About{
