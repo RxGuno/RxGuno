@@ -29,15 +29,23 @@ p {
     border-radius: 5px;
 }
 
-img {
-    border-radius: 500px;
-    border: 1px solid #343D3a;
-}
-
 .devs{
     text-align: center;
     display: inline-block;
     justify-content: space-evenly;
     margin: 40px;
     padding: 10px;
+}
+
+.devs img{
+    border-radius: 500px;
+    border: 1px solid #343D3a;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    top: 5px;
+    border-radius: 0;
 }
