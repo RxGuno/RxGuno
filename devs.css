@@ -1,0 +1,43 @@
+* {
+    font-family: nexa;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f1e7de;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 5000;
+}
+
+p {
+    color: #343D3a;
+}
+
+.logo{
+    background-color: #343D3a;
+    text-align: center;
+    padding: 7px 8px;
+    margin: 40px;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 500px;
+    border: 1px solid #343D3a;
+}
+
+.devs{
+    text-align: center;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 40px;
+    padding: 10px;
+}
