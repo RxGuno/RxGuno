@@ -3,8 +3,7 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="aurora.css">
-  <link rel="stylesheet"  href="script.js">
-  <link rel="stylesheet" href="sliderbot.js">
+  <link rel="stylesheet"  href="slidertop.js">
   <title style="font-size: large;">Aurora</title>
 
 <head>
@@ -17,11 +16,14 @@
         <a href="#Home">Home</a>
         <a href="#Product">Shop</a>
         <a href="#About">About</a>
-        <li class="navbar_btn">
-          <a href="aa.html" class="button" id="about">Developer</a>
-      </li>
-    <li class="navbar__btn">
-      <a href="aa.html" class="button" id="about">Log-in</a>
+        <a href="dev.html">Developers</a>
+      <div class="dropdown">
+        <button class="dropbtn">Account</button>
+        <div class="dropdown-content">
+          <a href="aa.html">User Login</a>
+          <a href="#">Admin</a>
+        </div>
+      </div> 
   </li>
 </div>
 </head>
@@ -45,9 +47,22 @@
     <div class="mySlides">
         <img src="slider 5.png" style="width: 100%;">
     </div>
-
+    <div class="mySlides">
+      <img src="slider 6.png" style="width: 100%;">
+   </div>
+   <div class="mySlides">
+       <img src="slider 7.png" style="width: 100%;">
+   </div>
+   <div class="mySlides">
+      <img src="slider 8.png" style="width: 100%;">
+   </div>
+   <div class="mySlides">
+       <img src="slider 9.png" style="width: 100%;">
+   </div>
+   <div class="mySlides">
+       <img src="slider 10.png" style="width: 100%;">
+   </div>
 </div>
-
 
   <h1><b>All Products</b></h1>
 <div id="Product">
@@ -262,31 +277,16 @@
 </div>
 
 
-<div class="slideshow-container" id="About">
-  <div class="sliders">
-     <img src="slider 6.png" style="width: 100%;">
-  </div>
-  <div class="sliders">
-      <img src="slider 7.png" style="width: 100%;">
-  </div>
-  <div class="sliders">
-     <img src="slider 8.png" style="width: 100%;">
-  </div>
-  <div class="sliders">
-      <img src="slider 9.png" style="width: 100%;">
-  </div>
-  <div class="sliders">
-      <img src="slider 10.png" style="width: 100%;">
-  </div>
-
+<div id="About">
+  <img src="ABOUT II.png"
 </div>
 
-<div>
+<div class="arrow_container">
 <a href="" class="arrow"></a>
 </div>
 
-<script src="script.js"></script>
-<script src="sliderbot.js"></script>
+
+<script src="slidertop.js"></script>
 </body>
 
 </html>
