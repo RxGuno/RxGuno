@@ -1,4 +1,3 @@
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -12,7 +11,6 @@ function currentSlides(n) {
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
-    var dots= document.getElementsByClassName("dot");
     if(n > slides.length) {slideIndex = n}
     if(n < 1) {slideIndex = slides.length }
     for(i=0; i<slides.length; i++) {
@@ -25,7 +23,7 @@ function showSlides(n) {
     dots[slideIndex - 1].className += "active";
 }
 
-//automatic slide//
+
 
 var slideIndex = 0;
 showSlides();
@@ -43,6 +41,3 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
     setTimeout(showSlides, 3000);
 }
-
-
-
